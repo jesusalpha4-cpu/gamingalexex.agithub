@@ -1,1 +1,48 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+#darkModeBtn {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.evos-card {
+  background: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.dark-mode .evos-card {
+  background: #1e1e1e;
+}
+
+.hidden {
+  display: none;
+}
+
+#playerBtn {
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+}
 
